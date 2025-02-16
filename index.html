@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="head-container">
+      <div class="main-name" onclick="">MEDHAVI RAINA</div>
+      <div class="tab-container">
+        <div class="tab-name1" onclick="openBottomSheet(1)">ABOUT</div>
+        <div class="tab-name2" onclick="openBottomSheet(2)">PROJECTS</div>
+        <!-- <div class="bottom-tab"> -->
+        <div class="tab-name3" onclick="openBottomSheet(3)">INPROGRESS</div>
+        <div class="tab-name4" onclick="openBottomSheet(4)">THE ARCHIEVES</div>
+        <div class="tab-name5" onclick="openBottomSheet(5)">CONTACT</div>
+        <!-- </div> -->
+      </div>
+      <div class="main-img">
+        <img src="assets/images/homepageImage.png" class="image1" alt="" />
+      </div>
+      <div class="main-img">
+        <img src="assets/images/archivesImg.png" class="image1" alt="" />
+      </div>
+      <div class="main-img">
+        <img src="assets/images/img1.png" class="image1" alt="" />
+      </div>
+    </div>
+
+    <div class="bottom-sheet" id="sheetNumber1">
+      <div class="sheet-content">
+        <span class="close-btn" onclick="closeBottomSheet(1)">Close</span>
+
+        <img class="about-img1" src="assets/images/about1.png" alt="" />
+        <img class="about-img2" src="assets/images/about2.png" alt="" />
+      </div>
+    </div>
+
+    <div class="bottom-sheet" id="sheetNumber2">
+      <div class="sheet-content">
+        <span class="close-btn" onclick="closeBottomSheet(2)">Close</span>
+
+        <h2>Bottom Sheet second</h2>
+        <p class="pages">PROJECTS</p>
+      </div>
+    </div>
+
+    <div class="bottom-sheet" id="sheetNumber3">
+      <div class="sheet-content">
+        <span class="close-btn" onclick="closeBottomSheet(3)">Close</span>
+
+        <h2>Bottom Sheet third</h2>
+        <p class="pages">Inprogress</p>
+      </div>
+    </div>
+
+    <div class="bottom-sheet" id="sheetNumber4">
+      <div class="sheet-content">
+        <span class="close-btn" onclick="closeBottomSheet(4)">Close</span>
+
+        <div class="container">
+          <a href="varsity.html" class="widget">
+            <div class="image-section"></div>
+            <div class="bottom-section">VARSITY MEMORIS</div>
+          </a>
+          <a href="business.html" class="widget">
+            <div class="image-section"></div>
+            <div class="bottom-section">BUSINESS STUDIES</div>
+          </a>
+          <a href="lostart.html" class="widget">
+            <div class="image-section"></div>
+            <div class="bottom-section">LOST ARTS</div>
+          </a>
+          <a href="fyby.html" class="widget">
+            <div class="image-section"></div>
+            <div class="bottom-section">PRABHAVI FYBY</div>
+          </a>
+          <a href="cars.html" class="widget">
+            <div class="image-section"></div>
+            <div class="bottom-section">CARS & CABINS</div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-sheet" id="sheetNumber5">
+      <div class="sheet-content">
+        <span class="close-btn" onclick="closeBottomSheet(5)">Close</span>
+
+        <h2>Bottom Sheet fifth</h2>
+        <p class="pages">Contact</p>
+      </div>
+
+      <!-- <div class="container">
+      <a href="page1.html" class="widget">
+          <div class="image-section"></div>
+          <div class="bottom-section">VARSITY MEMORIS</div>
+      </a>
+      <a href="page2.html" class="widget">
+          <div class="image-section"></div>
+          <div class="bottom-section">BUSINESS STUDIES</div>
+      </a>
+      <a href="page3.html" class="widget">
+          <div class="image-section"></div>
+          <div class="bottom-section">LOST ARTS</div>
+      </a>
+      <a href="fyby.html" class="widget">
+          <div class="image-section"></div>
+          <div class="bottom-section">PRABHAVI FYBY</div>
+      </a>
+      <a href="cars.html" class="widget">
+          <div class="image-section"></div>
+          <div class="bottom-section">CARS & CABINS</div>
+      </a>
+  </div> -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
