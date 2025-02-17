@@ -107,8 +107,10 @@ body {
 }
 
 a {
-    color: inherit; /* Inherits color from parent */
-    text-decoration: none; /* Removes underline */
+    color: inherit;
+    /* Inherits color from parent */
+    text-decoration: none;
+    /* Removes underline */
 }
 
 .image1 {
@@ -207,7 +209,7 @@ a {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 20px;
-    padding: 150px 3% 0px 5% ;
+    padding: 150px 3% 0px 5%;
 }
 
 .widget {
@@ -274,7 +276,7 @@ a {
 
 @media (max-width:600px) {
     .container {
-        margin-top: 50px;
+        /* margin-top: 50px; */
         /* display: grid; */
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 20px;
@@ -288,6 +290,8 @@ a {
         width: 96px;
         height: 200px;
         font-size: 13px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .image-section {
@@ -320,8 +324,11 @@ a {
         /* Place it in the second row */
         justify-self: center;
     }
-    .widget:nth-child(1),.widget:nth-child(2),.widget:nth-child(3) {
-        margin-top: -85px;
+
+    .widget:nth-child(1),
+    .widget:nth-child(2),
+    .widget:nth-child(3) {
+        margin-top: -55px;
     }
 }
 
@@ -417,15 +424,16 @@ a {
         /* Half the screen width */
         height: 0vh;
     }
+
     .bg2 {
         width: 150vw;
         height: 140vh;
         margin-top: -600px;
         margin-left: -330px;
         opacity: 0.3;
-        
+
     }
-    
+
     .content {
         top: 100px;
         width: 100vw;
@@ -433,21 +441,21 @@ a {
         position: absolute;
         padding: 20px 0px 0px 150px;
     }
-    
+
     .content h1 {
         margin-top: 15px;
         font-size: xx-large;
         text-align: start;
         font-family: 'Courier New', Courier, monospace;
     }
-    
+
     .content p {
         font-size: 15px;
         text-align: center;
         margin-left: -19%;
         margin-right: 15%;
     }
-    
+
     /* Adding horizontal lines */
     .content::before {
         width: 90%;
@@ -544,15 +552,16 @@ a {
         /* Half the screen width */
         height: 0vh;
     }
+
     .bg21 {
         width: 190vw;
         height: 150vh;
         margin-top: -789px;
         margin-left: -330px;
         opacity: 0.3;
-        
+
     }
-    
+
     .content1 {
         top: 100px;
         width: 100vw;
@@ -560,7 +569,7 @@ a {
         position: absolute;
         padding: 20px 0px 0px 150px;
     }
-    
+
     .content1 h1 {
         margin-top: 15px;
         font-size: xx-large;
@@ -568,14 +577,14 @@ a {
         letter-spacing: 0px;
         margin-left: -35%;
     }
-    
+
     .content1 p {
         font-size: 15px;
         text-align: center;
         margin-left: -19%;
         margin-right: 15%;
     }
-    
+
     /* Adding horizontal lines */
     .content1::before {
         width: 90%;
@@ -671,15 +680,16 @@ a {
         /* Half the screen width */
         height: 0vh;
     }
+
     .bg22 {
         width: 220vw;
         height: 180vh;
         margin-top: -1000px;
         margin-left: -420px;
         opacity: 0.3;
-        
+
     }
-    
+
     .content2 {
         top: 100px;
         width: 100vw;
@@ -687,7 +697,7 @@ a {
         position: absolute;
         padding: 20px 0px 0px 150px;
     }
-    
+
     .content2 h1 {
         margin-top: 15px;
         font-size: xx-large;
@@ -695,14 +705,14 @@ a {
         letter-spacing: 0px;
         margin-left: -35%;
     }
-    
+
     .content2 p {
         font-size: 15px;
         text-align: center;
         margin-left: -19%;
         margin-right: 15%;
     }
-    
+
     /* Adding horizontal lines */
     .content2::before {
         width: 90%;
@@ -799,15 +809,16 @@ a {
         /* Half the screen width */
         height: 0vh;
     }
+
     .bg24 {
         width: 200vw;
         height: 180vh;
         margin-top: -1200px;
         margin-left: -420px;
         opacity: 0.3;
-        
+
     }
-    
+
     .content4 {
         top: 50px;
         width: 100vw;
@@ -815,7 +826,7 @@ a {
         position: absolute;
         padding: 20px 0px 0px 150px;
     }
-    
+
     .content4 h1 {
         margin-top: 15px;
         font-size: xx-large;
@@ -823,14 +834,14 @@ a {
         letter-spacing: 0px;
         margin-left: -35%;
     }
-    
+
     .content4 p {
         font-size: 15px;
         text-align: center;
         margin-left: -19%;
         margin-right: 15%;
     }
-    
+
     /* Adding horizontal lines */
     .content4::before {
         width: 90%;
@@ -926,15 +937,16 @@ a {
         /* Half the screen width */
         height: 0vh;
     }
+
     .bg25 {
         width: 220vw;
         height: 180vh;
         margin-top: -700px;
         margin-left: -420px;
         opacity: 0.3;
-        
+
     }
-    
+
     .content5 {
         top: 100px;
         width: 100vw;
@@ -942,7 +954,7 @@ a {
         position: absolute;
         padding: 20px 0px 0px 150px;
     }
-    
+
     .content5 h1 {
         margin-top: 15px;
         font-size: xx-large;
@@ -950,14 +962,14 @@ a {
         letter-spacing: 0px;
         margin-left: -35%;
     }
-    
+
     .content5 p {
         font-size: 15px;
         text-align: center;
         margin-left: -19%;
         margin-right: 15%;
     }
-    
+
     /* Adding horizontal lines */
     .content5::before {
         width: 90%;
