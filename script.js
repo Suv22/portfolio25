@@ -1,13 +1,13 @@
-function openBottomSheet(sheetNumber) {
-    // document.getElementById("bottomSheet").style.bottom = "0";
-    document.getElementById("sheetNumber" + sheetNumber).style.bottom = "0"; 
-    // document.getElementById("sheetNumber" + sheetNumber).classList.add("active");
-}
+// function openBottomSheet(sheetNumber) {
+//     // document.getElementById("bottomSheet").style.bottom = "0";
+//     document.getElementById("sheetNumber" + sheetNumber).style.bottom = "0"; 
+//     // document.getElementById("sheetNumber" + sheetNumber).classList.add("active");
+// }
 
-function closeBottomSheet(sheetNumber) {
-    document.getElementById("sheetNumber" + sheetNumber).style.bottom = "-100%";
-    // document.getElementById("sheet" + sheetNumber).classList.remove("active");
-}
+// function closeBottomSheet(sheetNumber) {
+//     document.getElementById("sheetNumber" + sheetNumber).style.bottom = "-100%";
+//     // document.getElementById("sheet" + sheetNumber).classList.remove("active");
+// }
 
 let slideIndex = 0;
 showSlides();

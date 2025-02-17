@@ -52,6 +52,8 @@ body {
     transition: transform 0.1s ease-in-out;
 }
 
+
+
 .tab-name1:active {
     transform: scale(0.9);
 }
@@ -104,7 +106,10 @@ body {
     transform: scale(0.9);
 }
 
-
+a {
+    color: inherit; /* Inherits color from parent */
+    text-decoration: none; /* Removes underline */
+}
 
 .image1 {
     display: block;
@@ -191,7 +196,7 @@ body {
     .image1 {
         width: 325px;
         height: 350px;
-        margin: 90px 5px 0px 10px;
+        margin: 120px 5px 0px 10px;
     }
 
 }
@@ -282,7 +287,7 @@ body {
         position: relative;
         width: 96px;
         height: 200px;
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .image-section {
