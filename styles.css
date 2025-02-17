@@ -21,11 +21,18 @@ body {
     align-items: end;
     white-space: nowrap;
     cursor: pointer;
+    transition: color 0.3s ease;
 }
 
 .tab-container :hover {
     color: #B87333;
 }
+.tab-container:focus {
+    color: inherit; /* Reset to original color after clicking */
+  }
+/* .tab-container:active {
+    color: #B87333; 
+  } */
 
 .main-name {
     /* padding-left: 44%; */
@@ -293,6 +300,7 @@ a {
         margin-right: auto;
         -webkit-tap-highlight-color: transparent;
     }
+    
 
     .image-section {
         flex: 0.8;
@@ -594,6 +602,40 @@ a {
         background-color: rgb(165, 60, 60);
     }
     
+}
+/* FYBY socials  */
+.social-icons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 20px;
+    /* background: rgba(119, 115, 116, 0.7); */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.social-icons a {
+    font-size: 24px;
+    color: rgb(0, 0, 0); /* Default color */
+    transition: color 0.3s ease, transform 0.2s;
+}
+/* 
+.social-icons a:hover {
+    color: #B87333; 
+    transform: scale(1.2); 
+} */
+.social-icons a:active {
+    color: #B87333; /* Change color on click */
+}
+@media (max-width: 600px) {
+    .social-icons{
+        position: relative;
+        right: 30px;
+        display: block;
+        margin-left: 60%;
+        margin-top: 50px;
+    }
 }
 
 
