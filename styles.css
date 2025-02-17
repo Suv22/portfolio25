@@ -326,7 +326,7 @@ a {
 
 .car-body {
     margin: 0;
-    background-image: linear-gradient(to bottom, #c28140 0%, #eddfd1 100%);
+    background-image: linear-gradient(to bottom, #6a909a 25%, #ef9e4d 100%);
     display: flex;
     height: 100%;
     /* Full height */
@@ -344,7 +344,7 @@ a {
     background-image: url('assets/images/cars1.jpg');
     background-size: cover;
     background-position: center;
-    opacity: 0.8;
+    opacity: 0.9;
     filter: blur(1.2px);
 }
 
@@ -354,7 +354,7 @@ a {
     margin-top: -600px;
     margin-left: -150px;
     opacity: 0.3;
-    width: 1000px;
+    width: 1200px;
     height: 1000px;
     z-index: -2000;
     position: fixed;
@@ -458,7 +458,7 @@ a {
 
 .youth-body {
 
-    background-image: linear-gradient(to bottom, #292623 0%, #eddfd1 100%);
+    background-image: linear-gradient(to bottom, #6a909a 20%, #ef9e4d 100%);
     margin: 0;
     display: flex;
     height: 100%;
@@ -475,15 +475,15 @@ a {
     background-image: url('assets/images/youth1.png');
     background-size: cover;
     background-position: center;
-    opacity: 0.8;
+    opacity: 0.9;
     filter: blur(1.2px);
 }
 
 .bg21 {
-    margin-top: -600px;
+    margin-top: -450px;
     margin-left: -150px;
     opacity: 0.3;
-    width: 1000px;
+    width: 1200px;
     height: 1000px;
     z-index: -2000;
     position: fixed;
@@ -588,7 +588,7 @@ a {
 /* Lost-Arts */
 .lostArt-body {
     margin: 0;
-    background-image: linear-gradient(to bottom, #292623 0%, #eddfd1 100%);
+    background-image: linear-gradient(to bottom, #6a909a 50%, #ef9e4d 100%);
     display: flex;
     height: 100%;
     /* Full height */
@@ -604,14 +604,14 @@ a {
     background-image: url('assets/images/lostArt.png');
     background-size: cover;
     background-position: center;
-    opacity: 0.8;
+    opacity: 0.9;
     filter: blur(0px);
 }
 
 .bg22 {
-    margin-top: -800px;
+    margin-top: -700px;
     margin-left: -150px;
-    opacity: 0.3;
+    opacity: 0.5;
     width: 1200px;
     height: 1100px;
     z-index: -2000;
@@ -718,12 +718,12 @@ a {
 /* varsity Memoris */
 .varsity-body {
     margin: 0;
-    background-image: linear-gradient(to bottom, #292623 0%, #eddfd1 100%);
+    background-image: linear-gradient(to bottom, #6a909a 50%, #ef9e4d 100%);
     display: flex;
     height: 100%;
     /* Full height */
     /* background-color: #eddfd1; */
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .half-background4 {
@@ -734,7 +734,7 @@ a {
     background-image: url('assets/images/varsity1.png');
     background-size: cover;
     background-position: center;
-    opacity: 0.8;
+    opacity: 0.9;
     filter: blur(0px);
 }
 
@@ -742,8 +742,8 @@ a {
     margin-top: -800px;
     margin-left: -150px;
     opacity: 0.3;
-    width: 1000px;
-    height: 1000px;
+    width: 1200px;
+    height: 1100px;
     z-index: -2000;
     position: fixed;
 }
@@ -801,7 +801,7 @@ a {
     }
 
     .bg24 {
-        width: 100vw;
+        width: 110vw;
         height: 150vh;
         margin-top: -1100px;
         margin-left: -263px;
@@ -848,7 +848,7 @@ a {
 /* businessStudies */
 .business-body {
     margin: 0;
-    background-image: linear-gradient(to bottom, #292623 0%, #eddfd1 100%);
+    background-image: linear-gradient(to bottom, #6a909a 50%, #ef9e4d 100%);
     display: flex;
     height: 100%;
     /* Full height */
@@ -864,15 +864,15 @@ a {
     background-image: url('assets/images/business3.png');
     background-size: cover;
     background-position: center;
-    opacity: 0.8;
+    opacity: 0.9;
     filter: blur(0px);
 }
 
 .bg25 {
-    margin-top: -600px;
+    margin-top: -550px;
     margin-left: -150px;
     opacity: 0.3;
-    width: 1000px;
+    width: 1200px;
     height: 1000px;
     z-index: -2000;
     position: fixed;
