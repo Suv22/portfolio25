@@ -283,13 +283,11 @@ h2 {
 
 /* the Archieves */
 .container {
-    margin-top: 50px;
+    /* margin-top: 150px; */
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 20px;
-    /* width: 100%; */
-    /* max-width: 1000px; */
-    /* margin-left: -200px; */
+    padding: 150px 3% 0px 5% ;
 }
 
 .widget {
@@ -401,6 +399,9 @@ h2 {
         grid-row: 2;
         /* Place it in the second row */
         justify-self: center;
+    }
+    .widget:nth-child(1),.widget:nth-child(2),.widget:nth-child(3) {
+        margin-top: -85px;
     }
 }
 
