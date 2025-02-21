@@ -207,6 +207,15 @@ a {
 
 
 }
+@media (max-width: 600px){
+    .archives-body {
+        /* background-image: linear-gradient(to bottom, rgb(231, 158, 158) 70%, #6f0a0a 100%); */
+        /* background-image: linear-gradient(to bottom, #F2F0E3 40%, #d5c980 100%); */
+        background-color: #504c32;
+    
+    
+    }
+}
 
 .container {
     /* margin-top: 150px; */
