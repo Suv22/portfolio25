@@ -147,6 +147,9 @@ a {
 
 
 @media (max-width: 600px) {
+    body{
+        background-color: #F2F0E3;
+    }
     .main-name {
         font-size: 19px;
         position: absolute;
