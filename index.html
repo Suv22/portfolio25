@@ -1,36 +1,189 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
-    <meta name="description" content="" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <title>Responsive Grid Layout</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        height: 100vh; /* Full screen height */
+        background: #f2f0e3;
+        overflow-y: hidden;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+        font-style: normal;
+        /* display: flex; */
+        font-size: 17px;
+        line-height: 1.3;
+        letter-spacing: 0.01em;
+        font-weight: 700;
+      }
+      .main-name {
+        font-size: xx-large;
+        position: relative;
+        text-align: center;
+        top: 55px;
+        z-index: 1;
+      }
+
+      .container {
+        display: grid;
+        color: #1c1c1c;
+        /* gap: 10px; */
+        /* padding: 20px; */
+
+        /* Define Grid Layout */
+        width: 100%;
+        height: 105vh;
+        /* background: white; */
+        grid-template-columns: repeat(2, 1fr); /* First row - 2 columns */
+        grid-template-rows: auto auto auto; /* 3 rows */
+        -webkit-tap-highlight-color: transparent;
+      }
+      
+
+      /* First row: Two columns */
+      .item1 {
+        /* background: lightblue; */
+        padding-left: 20px;
+        text-align: start;
+      }
+      .item1:active {
+        color: #f2f0e3;
+      }
+      .item2 {
+        /* background: lightblue; */
+        padding-right: 20px;
+        text-align: end;
+      }
+      .item2:active {
+        color: #f2f0e3;
+      }
+
+      /* Second row: Single column (spans full width, image centered) */
+      .item3 {
+        grid-column: 1 / -1; /* Spans full width */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 80px;
+      }
+
+      .item3 img {
+        width: 550px; /* Adjust image size */
+        height: 550px;
+        /* border-radius: 5%; */
+        box-shadow: 0 4px 8px 0 #40403b, 0 4px 8px 0 #e2d05a;
+      }
+      .image1 {
+        animation-name: fade;
+        animation-duration: 2s;
+      }
+
+      @keyframes fade {
+        from {
+          opacity: 0.2;
+        }
+
+        to {
+          opacity: 1;
+        }
+      }
+
+      /* Third row: Three columns */
+      .third-row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Three columns */
+        /* gap: 10px; */
+        grid-column: 1 / -1; /* Spans full width */
+      }
+
+      .item4 {
+        /* background: lightcoral; */
+        padding: 20px;
+        text-align: start;
+      }
+      .item4:active {
+        color: #f2f0e3;
+      }
+      .item5 {
+        /* background: lightblue; */
+        padding: 20px;
+        text-align: center;
+      }
+      .item5:active {
+        color: #f2f0e3;
+      }
+
+      a {
+        color: inherit;
+        /* Inherits color from parent */
+        text-decoration: none;
+        /* Removes underline */
+      }
+      .item6 {
+        /* background: lightblue; */
+        padding: 20px;
+        text-align: end;
+      }
+      .item6:active {
+        color: #f2f0e3;
+      }
+      
+
+      /* Responsive: Stack on small screens */
+      @media (max-width: 600px) {
+        body {
+          overflow: hidden;
+          font-size: 11px;
+          width: 100vw;
+          height: 100vh;
+        }
+        .main-name {
+          font-size: 18px;
+        }
+        /* .container {
+          width: 100%;
+          height: 700px;
+        } */
+        .item3 img {
+          /* padding-bottom: 80px; */
+          width: 320px; /* Adjust image size */
+          height: 320px;
+        }
+      }
+    </style>
   </head>
   <body>
-    <div class="head-container">
-      <div class="main-name" onclick="">MEDHAVI RAINA</div>
-      <div class="tab-container">
-        <div class="tab-name1" onclick="openBottomSheet(1)">ABOUT</div>
-        <div class="tab-name2" onclick="openBottomSheet(2)">PROJECTS</div>
-        <!-- <div class="bottom-tab"> -->
-        <div class="tab-name3" onclick="openBottomSheet(3)">INPROGRESS</div>
-        <div class="tab-name4" ><a href="thearchives.html">THE ARCHIEVES</a></div>
-        <div class="tab-name5" onclick="openBottomSheet(5)">CONTACT</div>
-        <!-- </div> -->
+    <div class="main-name" onclick="">MEDHAVI RAINA</div>
+    <div class="container">
+      <!-- First Row -->
+      <div class="item1">ABOUT</div>
+      <div class="item2">PROJECTS</div>
+
+      <!-- Second Row -->
+      <div class="item3">
+        <img src="assets/images/homepageImage.png" class="image1" alt="Image" />
       </div>
-      <div class="main-img">
-        <img src="assets/images/homepageImage.png" class="image1" alt="" />
+      <!-- <div class="item3">
+        <img src="assets/images/archivesImg.png" class="image1" alt="Image" />
+      </div> -->
+      <div class="item3">
+        <img src="assets/images/img1.png" class="image1" alt="Image" />
       </div>
-      <div class="main-img">
-        <img src="assets/images/archivesImg.png" class="image1" alt="" />
-      </div>
-      <div class="main-img">
-        <img src="assets/images/img1.png" class="image1" alt="" />
+
+      <!-- Third Row -->
+      <div class="third-row">
+        <div class="item4">IMPROGRESS</div>
+        <div class="item5"><a href="thearchives.html">THE ARCHIEVES</a></div>
+        <div class="item6">CONTACTS</div>
       </div>
     </div>
-
     <script src="script.js"></script>
   </body>
 </html>
