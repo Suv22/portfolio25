@@ -808,7 +808,7 @@ a {
 }
 
 .content4 {
-    top: 50px;
+    top: 40px;
     width: 50vw;
     text-align: justify;
     position: relative;
@@ -824,7 +824,7 @@ a {
 }
 
 .content4 p {
-    font-size: 18px;
+    font-size: 14px;
     color: #f7f5e4;
     text-align: center;
     letter-spacing: 2px;
