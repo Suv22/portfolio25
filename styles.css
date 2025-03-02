@@ -86,7 +86,7 @@ body {
     margin-bottom: -10px;
 
     /* Adjust image size */
-    height: 630px;
+    height: 610px;
     /* border-radius: 5%; */
     /* box-shadow: 0 4px 8px 0 #40403b, 0 4px 8px 0 #e2d05a; */
 }
@@ -190,7 +190,7 @@ a {
 .archives-body {
     /* background-image: linear-gradient(to bottom, rgb(231, 158, 158) 70%, #6f0a0a 100%); */
     /* background-image: linear-gradient(to bottom, #F2F0E3 40%, #d5c980 100%); */
-    font-size: 120px;
+    font-size: 90px;
     font-family: 'Times New Roman', Times, serif;
     color: #000000;
     background-color: #F2F0E3;
