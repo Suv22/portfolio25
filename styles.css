@@ -213,7 +213,7 @@ a {
 
 .archives-container {
     display: grid;
-    padding: 120px 0% 0px 5%;
+    padding: 120px 2% 0px 2%;
     grid-template-columns: repeat(1, 1fr);
     /* First row - 2 columns */
     grid-template-rows: auto auto auto;
