@@ -83,10 +83,10 @@ body {
 .item3 img {
     width: 500px;
     margin-top: -150px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 
     /* Adjust image size */
-    height: 550px;
+    height: 590px;
     /* border-radius: 5%; */
     /* box-shadow: 0 4px 8px 0 #40403b, 0 4px 8px 0 #e2d05a; */
 }
