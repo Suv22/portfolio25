@@ -82,8 +82,8 @@ body {
 
 .item3 img {
     width: 500px;
-    margin-top: -100px;
-    margin-bottom: 0px;
+    margin-top: -80px;
+    margin-bottom: 2px;
 
     /* Adjust image size */
     height: 560px;
