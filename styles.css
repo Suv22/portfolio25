@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
-
+@font-face {
+    font-family: 'Myanmar Khyay';
+    src: url('fonts/Khyay-Regular.woff2') format('woff2'),
+         url('fonts/Khyay-Regular.woff') format('woff'),
+         url('fonts/Khyay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     height: 100vh;
@@ -194,7 +201,7 @@ a {
     /* background-image: linear-gradient(to bottom, #F2F0E3 40%, #d5c980 100%); */
     font-size: 90px;
     /* font-family: 'Times New Roman', Times, serif; */
-    font-family: 'Akshar', sans-serif;
+    font-family: 'Myanmar Khyay', sans-serif;
 
     color: #000000;
     background-color: #F2F0E3;
@@ -213,6 +220,53 @@ a {
     /* 3 rows */
     -webkit-tap-highlight-color: transparent;
 }
+.widget {
+    display: flex;
+}
+
+.tag1 {
+    display: flex;
+    align-items: center;
+    margin: 0; /* Removes default spacing */
+    line-height: 1;
+}
+
+.image-section img {
+    width: 400px;  /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+}
+.tag2{
+    display: flex;
+}
+.image-section2 img {
+    width: 130px;  /* Adjust width as needed */
+    height: 120px; /* Maintain aspect ratio */
+    display: block;
+}
+.tag3{
+    display: flex;
+}
+.image-section3 img {
+    width: 130px;  /* Adjust width as needed */
+    height: 120px; /* Maintain aspect ratio */
+    display: block;
+}
+.tag4{
+    display: flex;
+}
+.image-section4 img {
+    width: 130px;  /* Adjust width as needed */
+    height: 120px; /* Maintain aspect ratio */
+    display: block;
+}
+.tag5{
+    display: flex;
+}
+.image-section5 img {
+    width: 200px;  /* Adjust width as needed */
+    height: 100px; /* Maintain aspect ratio */
+}
 
 .archive-clm3 {
     display: grid;
@@ -220,11 +274,6 @@ a {
     grid-column: 1 / -1;
 }
 
-.tag5 {
-    /* grid-column: 1 / -1; */
-    background-color: #b2a75d;
-
-}
 
 
 
