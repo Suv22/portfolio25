@@ -3,35 +3,73 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akshar:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Responsive Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="main-name" onclick="">MEDHAVI RAINA</div>
     <div class="container">
       <!-- First Row -->
-      <div class="item1"><a href="thearchives.html">About</a></div>
+      <div class="item1" onclick="openBottomSheet()">The Archives</div>
       <!-- <div class="item2">Projects</div> -->
 
       <!-- Second Row -->
       <div class="item3">
-        <img src="assets/images/homepageImage-removebg-preview.png" class="image1" alt="Image" />
+        <img
+          src="assets/images/homepageImage-removebg-preview.png"
+          class="image1"
+          alt="Image"
+        />
       </div>
-      <!-- <div class="item3">
-        <img src="assets/images/archivesImg.png" class="image1" alt="Image" />
-      </div> -->
-      <!-- <div class="item3">
-        <img src="assets/images/img1.png" class="image1" alt="Image" />
-      </div> -->
 
       <!-- Third Row -->
       <div class="third-row">
         <div class="item4"><a href="inprogress.html">Inprogress</a></div>
-        <div class="item5"><a href="thearchives.html">The Archives</a></div>
+        <div class="item5"><a href="thearchives.html">About</a></div>
         <div class="item6"><a href="thearchives.html">Unpublished</a></div>
       </div>
     </div>
-    <!-- <script src="script.js"></script> -->
+    <div class="bottom-sheet" id="sheetNumber">
+      <div class="sheet-content">
+        <span class="close-btn" onclick="closeBottomSheet()">Close</span>
+        <div class="archives-container">
+          <a href="varsity.html" class="widget">
+            <!-- <div class="image-section"></div> -->
+            <div class="tag1">Varsity Memoirs</div>
+          </a>
+          <a href="business.html" class="widget">
+            <!-- <div class="image-section"></div> -->
+            <div class="tag2">
+              <!-- <div class="image-section2"></div> -->
+              Business Studies
+            </div>
+          </a>
+          <div class="archive-clm3">
+            <a href="fyby.html" class="widget">
+              <!-- <div class="image-section"></div> -->
+              <div class="tag3">PrabhaviFYBY</div>
+            </a>
+            <a href="lostart.html" class="widget">
+              <!-- <div class="image-section"></div> -->
+              <div class="tag4">
+                The Lost Arts
+                <div class="image-section4"></div>
+              </div>
+            </a>
+          </div>
+          <a href="cars.html" class="widget">
+            <!-- <div class="image-section"></div> -->
+            <div class="tag5">
+              <div class="image-section5">Cars&Cabins</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>

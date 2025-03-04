@@ -59,22 +59,13 @@ body {
     padding-left: 20px;
     text-align: start;
     transition: color 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .item1:active {
     color: #f2f0e3;
 }
 
-.item2 {
-    /* background: lightblue; */
-    padding-right: 20px;
-    text-align: end;
-    transition: color 0.3s ease-in-out;
-}
-
-.item2:active {
-    color: #f2f0e3;
-}
 
 /* Second row: Single column (spans full width, image centered) */
 .item3 {
@@ -135,6 +126,71 @@ body {
 .item4:active {
     color: #f2f0e3;
 }
+/* bottomSheet */
+.bottom-sheet {
+    position: fixed;
+    left: 0;
+    top: -100%;
+    /* Keeps it hidden initially */
+    width: 100%;
+    height: 85vh;
+    /* Adjust height as needed */
+    background-color: #f2f0e3;
+    color: black;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.3);
+    transition: top 0.8s ease-in-out;
+    z-index: 1000;
+    /* Ensures it appears on top */
+    display: flex;
+    flex-direction: column;
+    /* Allows scrolling inside */
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Content inside the Bottom Sheet */
+.sheet-content {
+    flex-grow: 1;
+    padding: 100px;
+    width: 90%;
+    max-width: 2000px;
+    text-align: center;
+    overflow-y: auto;
+}
+
+.sheet-content::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.sheet-content {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    /* Hide scrollbar in IE and Edge */
+}
+
+/* Close Button */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+    /* background: black; */
+    color: rgb(0, 0, 0);
+    padding: 7px;
+    border-radius: 10%;
+    /* background-color: #f2f0e3; */
+    transition: transform 0.1s ease-in-out;
+}
+
+.close-btn:active {
+    transform: scale(0.9);
+}
+
+
 
 .item5 {
     /* background: lightblue; */
@@ -170,7 +226,7 @@ a {
 @media (max-width: 600px) {
     body {
         overflow: hidden;
-        font-size: 10px;
+        font-size: 12px;
         width: 100vw;
         height: 100vh;
     }
@@ -180,7 +236,7 @@ a {
     }
 
     .item1 {
-        margin-top: 30px;
+        margin-top: 50px;
     }
 
     /* .container {
@@ -193,92 +249,36 @@ a {
         /* Adjust image size */
         height: 350px;
     }
+    .bottom-sheet{
+        height: 75vh;
+    }
 }
 
 /* the Archieves */
 .archives-body {
     /* background-image: linear-gradient(to bottom, rgb(231, 158, 158) 70%, #6f0a0a 100%); */
     /* background-image: linear-gradient(to bottom, #F2F0E3 40%, #d5c980 100%); */
-    font-size: 90px;
+    /* font-size: 2px; */
     /* font-family: 'Times New Roman', Times, serif; */
-    font-family: 'Myanmar Khyay', sans-serif;
+    font-family: 'Akshar', sans-serif;
 
     color: #000000;
     background-color: #F2F0E3;
-
-
-}
-
-
-
-.archives-container {
-    display: grid;
-    padding: 12px 2% 0px 2%;
-    grid-template-columns: repeat(1, 1fr);
-    /* First row - 2 columns */
-    grid-template-rows: auto auto auto;
-    /* 3 rows */
     -webkit-tap-highlight-color: transparent;
-}
-.widget {
-    display: flex;
-}
 
-.tag1 {
-    display: flex;
-    align-items: center;
-    margin: 0; /* Removes default spacing */
-    line-height: 1;
-}
 
-.image-section img {
-    width: 400px;  /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-    display: block;
 }
-.tag2{
-    display: flex;
-}
-.image-section2 img {
-    width: 130px;  /* Adjust width as needed */
-    height: 120px; /* Maintain aspect ratio */
-    display: block;
-}
-.tag3{
-    display: flex;
-}
-.image-section3 img {
-    width: 130px;  /* Adjust width as needed */
-    height: 120px; /* Maintain aspect ratio */
-    display: block;
-}
-.tag4{
-    display: flex;
-}
-.image-section4 img {
-    width: 130px;  /* Adjust width as needed */
-    height: 120px; /* Maintain aspect ratio */
-    display: block;
-}
-.tag5{
-    display: flex;
-}
-.image-section5 img {
-    width: 200px;  /* Adjust width as needed */
-    height: 100px; /* Maintain aspect ratio */
-}
-
-.archive-clm3 {
+.archives-container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column: 1 / -1;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: start;
+    margin-top: 50px;
 }
-
-
-
-
-
-
+.tag1,.tag2,.tag3,.tag4,.tag5{
+    font-size: 100px;
+    margin-bottom: -50px;
+    margin-left: 60px;
+}
 
 
 .widget:active {
@@ -289,16 +289,9 @@ a {
 
 
 @media (max-width:600px) {
-    .archives-container {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .archives-body {
-        /* background-image: linear-gradient(to bottom, rgb(231, 158, 158) 70%, #6f0a0a 100%); */
-        /* background-image: linear-gradient(to bottom, #F2F0E3 40%, #d5c980 100%); */
-        background-color: #F2F0E3;
-        font-size: 20px;
-
+    .tag1,.tag2,.tag3,.tag4,.tag5{
+        font-size: 35px;
+        /* margin-bottom: -50px; */
     }
 
 }
@@ -698,17 +691,6 @@ a {
     overflow: hidden;
 }
 
-.half-background4 {
-    width: 65vw;
-    /* Half the screen width */
-    height: 100vh;
-    /* Full height */
-    background-image: url('assets/images/varsity1.png');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.9;
-    filter: blur(0px);
-}
 
 .content4 {
     top: 40px;
@@ -719,11 +701,13 @@ a {
 }
 
 .content4 h1 {
-    margin-top: 180px;
-    font-size: large;
-    text-align: center;
+    /* margin-top: 180px; */
+    font-size: 96;
+    text-align: start;
+    letter-spacing: 4px;
+    line-height: 1.3cm;
     color: #000000;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Koulen';
 }
 
 .content4 p {
@@ -737,24 +721,7 @@ a {
 
 }
 
-/* Adding horizontal lines */
-.content4::before {
-    content: "";
-    position: absolute;
-    left: 5%;
-    width: 100%;
-    /* Full width of the content */
-    height: 2px;
-    /* Thickness of the line */
-    background-color: rgb(0, 0, 0);
-}
 
-.content4::before {
-    top: 10;
-    width: 90%;
-    margin-left: 0px;
-    /* Line at the top */
-}
 
 @media (max-width : 600px) {
     .varsity-body {
@@ -762,16 +729,11 @@ a {
         overflow-y: scroll;
     }
 
-    .half-background4 {
-        width: 0vw;
-        /* Half the screen width */
-        height: 0vh;
-    }
 
     .content4 {
         top: 10px;
         width: auto;
-        text-align: center;
+        text-align: start;
         position: absolute;
 
         /* padding: 20px 0px 0px 150px; */
@@ -780,7 +742,7 @@ a {
     .content4 h1 {
         margin-top: 50px;
         font-size: x-large;
-        text-align: center;
+        text-align: start;
     }
 
     .content4 p {
@@ -789,14 +751,6 @@ a {
         color: #000000;
     }
 
-    /* Adding horizontal lines */
-    .content4::before {
-        width: 90%;
-        /* Full width of the content */
-        height: 1px;
-        /* Thickness of the line */
-        background-color: rgb(0, 0, 0);
-    }
 }
 
 

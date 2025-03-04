@@ -45,3 +45,18 @@ function showSlides() {
 
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+
+function openBottomSheet() {
+  // document.getElementById("bottomSheet").style.bottom = "0";
+  document.getElementById("sheetNumber").style.top = "0"; 
+  // document.getElementById("sheetNumber" + sheetNumber).classList.add("active");
+
+  document.getElementById("lineToHide").style.display = "none";
+}
+
+function closeBottomSheet() {
+  document.getElementById("sheetNumber").style.top = "-100%";
+  // document.getElementById("sheet" + sheetNumber).classList.remove("active");
+  document.getElementById("lineToHide").style.display = "block";
+}
+
