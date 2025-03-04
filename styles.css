@@ -133,7 +133,7 @@ body {
     top: -100%;
     /* Keeps it hidden initially */
     width: 100%;
-    height: 85vh;
+    height: 90vh;
     /* Adjust height as needed */
     background-color: #f2f0e3;
     color: black;
@@ -272,7 +272,7 @@ a {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     text-align: start;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .tag1,.tag2,.tag3,.tag4,.tag5{
     font-size: 100px;
@@ -289,9 +289,11 @@ a {
 
 
 @media (max-width:600px) {
+    
     .tag1,.tag2,.tag3,.tag4,.tag5{
-        font-size: 35px;
-        /* margin-bottom: -50px; */
+        font-size: 45px;
+        margin-left: 10px;
+        margin-bottom: -4px;
     }
 
 }
