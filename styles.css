@@ -433,7 +433,7 @@ a {
 /* FYBY */
 .youth-body {
     background-color: #fdf8e9;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .youth-body::-webkit-scrollbar {
@@ -445,7 +445,7 @@ a {
     display: grid;
     text-align: start;
     position: relative;
-    padding: 20px 50px 0px 50px;
+    padding: 20px 50px 0px 0px;
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -457,7 +457,7 @@ a {
     font-weight: 10px;
     color: #000000;
     font-family: 'Koulen';
-    margin: 68px 615px 0px 158px;
+    margin: 30px 615px 0px 50px;
 }
 
 .bg21 {
@@ -476,11 +476,11 @@ a {
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     font-family: 'Akatab', sans-serif;
-    margin: 6px 0px 0px 100px;
+    margin: 6px 0px 0px 50px;
 }
 
 .social-icons {
-    margin: 6px 0px 0px 100px;
+    margin: 6px 0px 0px 50px;
 
 }
 
@@ -801,12 +801,8 @@ a {
     background-color: #EEECE0;
     /* display: flex; */
     height: 100%;
-    /* Full height */
-    /* background-color: #eddfd1; */
-    overflow: auto;
-    /* scrollbar-width: none; */
 
-    overflow: hidden;
+    overflow: scroll;
 
 }
 
@@ -823,13 +819,13 @@ a {
     display: grid;
     text-align: justify;
     position: relative;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
 }
 
 .bg25  {
-    width: 570px;
-    height: 713px;
-    padding: 100px 0px 137px 20px;
+    width: 470px;
+    height: 613px;
+    padding: 80px 0px 17px 20px;
     align-content: end;
 }
 
@@ -841,7 +837,7 @@ a {
     font-weight: 10px;
     color: #000000;
     font-family: 'Koulen';
-    margin: 68px 65px 0px 158px;
+    margin: 68px 65px 0px 108px;
 }
 
 .content5 p {
@@ -854,13 +850,13 @@ a {
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     font-family: 'Akatab', sans-serif;
-    padding: 6px 0px 0px 158px;
+    padding: 6px 0px 0px 108px;
 }
 
 .businesslink {
     padding: 2px;
     box-shadow: 1px 0px 1px 1px #333;
-    margin-left: 158px;
+    margin-left: 108px;
     -webkit-tap-highlight-color: transparent;
 }
 
