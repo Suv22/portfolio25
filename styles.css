@@ -814,22 +814,26 @@ a {
     display: none;
     /* Chrome, Safari */
 }
+/* .business-body h1{
+    width: 60vw;
+    background-color: #525252;
+} */
 
 .content5 {
     display: grid;
     text-align: justify;
     position: relative;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 2fr 1fr;
 }
 
-.bg25 img {
-    width: 670px;
-    height: 813px;
-    padding: 100px 0px 137px 250px;
+.bg25  {
+    width: 570px;
+    height: 713px;
+    padding: 100px 0px 137px 20px;
     align-content: end;
 }
 
-.content5 h1 {
+.business-body h1 {
     font-size: 96px;
     text-align: start;
     letter-spacing: 6px;
