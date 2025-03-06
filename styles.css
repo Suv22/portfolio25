@@ -23,7 +23,7 @@ body {
 
     font-style: normal;
     /* display: flex; */
-    font-size: 20px;
+    font-size: 25px;
     line-height: auto;
 }
 
@@ -33,7 +33,7 @@ body {
     font-size: 44px;
     position: relative;
     text-align: center;
-    top: 20px;
+    /* top: 20px; */
     z-index: -1;
 }
 
@@ -176,9 +176,9 @@ body {
 /* Close Button */
 .close-btn {
     position: absolute;
-    top: 10px;
+    bottom: 10px;
     right: 15px;
-    font-size: 30px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     /* text-decoration: underline; */
     cursor: pointer;
@@ -295,7 +295,7 @@ a {
     .tag3,
     .tag4,
     .tag5 {
-        width: 98vw;
+        width: 95vw;
         font-size: 45px;
         margin-left: 10px;
         margin-bottom: -4px;
@@ -320,7 +320,7 @@ a {
 .car-body {
     margin: 0;
     /* background-image: linear-gradient(to bottom, #6a909a 25%, #ef9e4d 100%); */
-    background-color: #fdf8e9;
+    background-color: #F2F0E3;
 
     display: flex;
     height: 100%;
@@ -433,7 +433,7 @@ a {
 
 /* FYBY */
 .youth-body {
-    background-color: #fdf8e9;
+    background-color: #F2F0E3;
     overflow: scroll;
 }
 
@@ -481,8 +481,12 @@ a {
 }
 
 .social-icons {
+    font-size: 20px;
     margin: 6px 0px 0px 50px;
 
+}
+.social-icons i{
+    font-size: 14px;
 }
 
 .link {
@@ -575,7 +579,7 @@ a {
 .lostArt-body {
     margin: 0;
     /* background-image: linear-gradient(to bottom, #6a909a 50%, #ef9e4d 100%); */
-    background-color: #fdf8e9;
+    background-color: #F2F0E3;
 
     display: flex;
     height: 100%;
@@ -623,6 +627,14 @@ a {
 
 .LA4 a:active {
     color: #525252;
+}
+.artSocials{
+    font-size: 32px;
+    font-family: 'Akatab', sans-serif;
+    margin: 6px 0px 0px 100px;
+}
+.artSocials i{
+    font-size: 25px;
 }
 
 .content2 p {
@@ -729,7 +741,7 @@ a {
     /* margin-top: 180px; */
     font-size: 96px;
     text-align: start;
-    letter-spacing: 6px;
+    letter-spacing: -6%;
     line-height: 88px;
     font-weight: 10px;
     color: #000000;
@@ -738,7 +750,7 @@ a {
 }
 
 .content4 p {
-    font-size: 32px;
+    font-size: 27px;
     color: #000000;
     text-align: start;
     letter-spacing: -6%;
@@ -752,13 +764,16 @@ a {
 
 .varsitylink {
     padding: 2px;
-    box-shadow: 1px 0px 1px 1px #333;
+    /* box-shadow: 1px 0px 1px 1px #333; */
     -webkit-tap-highlight-color: transparent;
 }
 
 .varsitylink:active {
     color: #525252;
     transform: scale(0.9);
+}
+i{
+    font-size: 25px;
 }
 
 .full-width-img {
@@ -804,11 +819,11 @@ a {
     }
 
     .full-width-img {
-        width: 80vw;
+        width: 100vw;
         height: auto;
         /* Maintain aspect ratio */
         /* display: block; */
-        margin: 8px 0px 8px 0px;
+        margin: 8px 0px 8px -15px;
     }
 
 }
@@ -877,7 +892,7 @@ a {
     font-family: 'Akatab', sans-serif;
     font-size: 32px;
     padding: 2px;
-    box-shadow: 1px 0px 1px 1px #333;
+    /* box-shadow: 1px 0px 1px 1px #333; */
     margin-left: 108px;
     -webkit-tap-highlight-color: transparent;
 }
@@ -973,7 +988,7 @@ h1 {
 /* About  */
 
 .about-body {
-    background-color: #FFFFFF;
+    background-color: #F2F0E3;
     overflow: scroll;
   }
   
