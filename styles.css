@@ -515,15 +515,10 @@ a {
 
 
 @media (max-width : 600px) {
-    .youth-body {
-        background-color: #F2F0E3;
-        overflow: hidden;
-        margin: 0px;
-    }
-
     .content1 {
         top: -20px;
-        width: 0vw;
+        width: 80vw;
+        
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -537,7 +532,7 @@ a {
         font-weight: 10px;
         margin-left: 6px;
         margin-right: 6px;
-        padding: 0px 17px 0px 8px;
+        padding: 0px 0px 0px 8px;
     }
 
     .content1 p {
@@ -546,34 +541,39 @@ a {
         letter-spacing: 1%;
         word-spacing: 1px;
         line-height: 14px;
-        margin: 6px 3px 0px -140px;
-        padding: 6px 0px 0px 106px;
+        margin-left: 6px;
+        margin-right: 6px;
+        padding: 0px 0px 0px 8px;
     }
 
 
     /* FYBY socials  */
     .social-icons {
-        font-size: 14px;
+        font-size: 10px;
         letter-spacing: 1%;
         word-spacing: 1px;
         line-height: 14px;
-        margin: 6px 3px 0px -140px;
-        width: 120px;
-        padding: 6px 0px 0px 106px;
+        margin-left: 6px;
+        margin-right: 6px;
+        padding: 0px 0px 0px 8px;
+        justify-self: start;
+        width: 70vw;
     }
+
 
     .bg21 {
         width: 92px;
         height: 92px;
     }
-
-    .link {
-        width: 60vw;
+    .link{
+        grid-template-columns: repeat(1, 1fr);
+        width: 70vw;
+        
     }
-
     .link img {
-        margin-top: -50px;
-        margin-left: -100px;
+        margin-top: 0px;
+        margin-left: -50px;
+        justify-self: end
     }
 
 }
@@ -655,7 +655,7 @@ a {
 }
 
 .bg22 {
-    margin: 6px 50px 0px 100px;
+    margin: 6px 50px 0px 158px;
 }
 
 @media (max-width : 600px) {
@@ -711,12 +711,13 @@ a {
         width: 80vw;
         margin-left: 16px;
     }
+
     .artSocials {
         font-size: 14px;
         font-family: 'Akatab', sans-serif;
         margin: 0px 17px 0px 15px;
     }
-    
+
     .artSocials i {
         font-size: 11px;
     }
@@ -913,7 +914,7 @@ i {
     font-size: 30px;
     padding: 2px;
     /* box-shadow: 1px 0px 1px 1px #333; */
-    margin-left: 108px;
+    margin-left: 153px;
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -1049,7 +1050,7 @@ h1 {
 }
 
 .aboutSocial {
-    
+
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -1064,6 +1065,7 @@ h1 {
     bottom: 0;
     right: 0;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 
 
@@ -1115,6 +1117,7 @@ h1 {
         line-height: 6px;
         font-size: 14px;
         /* Adjust font size for better readability */
+        -webkit-tap-highlight-color: transparent;
     }
 
 
