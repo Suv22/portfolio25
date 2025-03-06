@@ -238,6 +238,7 @@ a {
     }
 
     .main-name {
+        top: 16px;
         font-size: 18px;
     }
 
@@ -303,11 +304,11 @@ a {
 
     .close-btn {
         position: absolute;
-        top: 10px;
+        bottom: 10px;
         right: 15px;
         font-size: 16px;
         margin: 30px;
-        padding: 2px 4px 2px 4px;
+        padding: 2px 0px 2px 4px;
     }
 
 }
@@ -351,7 +352,7 @@ a {
     font-weight: 10px;
     color: #000000;
     font-family: 'Koulen';
-    margin: 30px 615px 0px 60px;
+    margin: 30px 615px 0px 158px;
 }
 
 .v0 {
@@ -359,7 +360,7 @@ a {
 }
 
 .v1 p {
-    font-size: 32px;
+    font-size: 30px;
     color: #000000;
     text-align: start;
     letter-spacing: -6%;
@@ -368,7 +369,7 @@ a {
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     font-family: 'Akatab', sans-serif;
-    margin: 6px 0px 0px 60px;
+    margin: 6px 0px 0px 158px;
 }
 
 .v2 {
@@ -385,6 +386,7 @@ a {
         overflow: hidden;
         margin: 0px;
     }
+
     .content {
         top: -20px;
         grid-template-columns: repeat(1, 1fr);
@@ -446,7 +448,7 @@ a {
     display: grid;
     text-align: start;
     position: relative;
-    padding: 20px 50px 0px 0px;
+    padding: 20px 80px 0px 0px;
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -458,17 +460,17 @@ a {
     font-weight: 10px;
     color: #000000;
     font-family: 'Koulen';
-    margin: 30px 615px 0px 50px;
+    margin: 30px 615px 0px 158px;
 }
 
 .bg21 {
-    padding: 50px;
+    /* padding: 50px; */
     width: 192px;
     height: 192px;
 }
 
 .content1 p {
-    font-size: 32px;
+    font-size: 30px;
     color: #000000;
     text-align: start;
     letter-spacing: -6%;
@@ -477,22 +479,23 @@ a {
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     font-family: 'Akatab', sans-serif;
-    margin: 6px 0px 0px 50px;
+    margin: 6px 0px 0px 158px;
 }
 
 .social-icons {
     font-size: 20px;
-    margin: 6px 0px 0px 50px;
+    margin: 6px 0px 0px 158px;
 
 }
-.social-icons i{
+
+.social-icons i {
     font-size: 14px;
 }
 
 .link {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    font-size: 32px;
+    font-size: 30px;
     color: #000000;
     text-align: start;
     font-family: 'Akatab', sans-serif;
@@ -604,6 +607,7 @@ a {
 
 .LA1 {
     grid-column: 1 / -1;
+    width: 100vw;
 }
 
 .content2 h1 {
@@ -614,7 +618,7 @@ a {
     font-weight: 10px;
     color: #000000;
     font-family: 'Koulen';
-    margin: 30px 615px 0px 100px;
+    margin: 30px 615px 0px 158px;
 }
 
 .LA4 {
@@ -628,24 +632,26 @@ a {
 .LA4 a:active {
     color: #525252;
 }
-.artSocials{
-    font-size: 32px;
+
+.artSocials {
+    font-size: 30px;
     font-family: 'Akatab', sans-serif;
-    margin: 6px 0px 0px 100px;
+    margin: 6px 0px 0px 158px;
 }
-.artSocials i{
+
+.artSocials i {
     font-size: 25px;
 }
 
 .content2 p {
-    font-size: 32px;
+    font-size: 30px;
     color: #000000;
     text-align: start;
     letter-spacing: -6%;
     word-spacing: 8px;
     line-height: 40px;
     font-family: 'Akatab', sans-serif;
-    margin: 6px 50px 0px 100px;
+    margin: 6px 50px 0px 158px;
 }
 
 .bg22 {
@@ -705,6 +711,15 @@ a {
         width: 80vw;
         margin-left: 16px;
     }
+    .artSocials {
+        font-size: 14px;
+        font-family: 'Akatab', sans-serif;
+        margin: 0px 17px 0px 15px;
+    }
+    
+    .artSocials i {
+        font-size: 11px;
+    }
 }
 
 
@@ -750,7 +765,7 @@ a {
 }
 
 .content4 p {
-    font-size: 27px;
+    font-size: 30px;
     color: #000000;
     text-align: start;
     letter-spacing: -6%;
@@ -759,7 +774,7 @@ a {
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     font-family: 'Akatab', sans-serif;
-    padding: 6px 340px 0px 152px;
+    padding: 6px 340px 0px 158px;
 }
 
 .varsitylink {
@@ -772,7 +787,8 @@ a {
     color: #525252;
     transform: scale(0.9);
 }
-i{
+
+i {
     font-size: 25px;
 }
 
@@ -788,6 +804,10 @@ i{
 @media (max-width : 600px) {
     .varsity-body {
         overflow-x: hidden;
+    }
+
+    i {
+        font-size: 11px;
     }
 
     .content4 {
@@ -857,7 +877,7 @@ i{
     grid-template-columns: 1.5fr 1fr;
 }
 
-.bg25 {
+.bs25 {
     width: 470px;
     height: 613px;
     padding: 80px 0px 17px 20px;
@@ -872,11 +892,11 @@ i{
     font-weight: 10px;
     color: #000000;
     font-family: 'Koulen';
-    margin: 68px 65px 0px 108px;
+    margin: 68px 65px 0px 158px;
 }
 
 .content5 p {
-    font-size: 32px;
+    font-size: 30px;
     color: #000000;
     text-align: start;
     letter-spacing: -6%;
@@ -885,12 +905,12 @@ i{
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     font-family: 'Akatab', sans-serif;
-    padding: 6px 0px 0px 108px;
+    padding: 6px 0px 0px 158px;
 }
 
 .businesslink {
     font-family: 'Akatab', sans-serif;
-    font-size: 32px;
+    font-size: 30px;
     padding: 2px;
     /* box-shadow: 1px 0px 1px 1px #333; */
     margin-left: 108px;
@@ -943,23 +963,22 @@ i{
 
     .businesslink {
         padding: 2px;
-        box-shadow: 1px 0px 1px 1px #333;
+        /* box-shadow: 1px 0px 1px 1px #333; */
         margin-left: 15px;
         -webkit-tap-highlight-color: transparent;
     }
 
-    .bg25 {
-        position: absolute;
-        padding-top: 100vw;
-        z-index: -1;
+    .vl4 a {
+        font-size: 14px;
     }
 
-    .bg25 img {
-
+    .bs25 img {
+        position: absolute;
+        padding-top: 0vw;
         width: 100vw;
         height: auto;
         padding: 0;
-
+        z-index: -1;
     }
 
 }
@@ -990,22 +1009,22 @@ h1 {
 .about-body {
     background-color: #F2F0E3;
     overflow: scroll;
-  }
-  
-  .about-body::-webkit-scrollbar {
+}
+
+.about-body::-webkit-scrollbar {
     display: none;
     /* Chrome, Safari */
-  }
-  
-  .contentAB {
+}
+
+.contentAB {
     display: grid;
     text-align: start;
     position: relative;
     padding: 20px 50px 0px 0px;
-    grid-template-columns: 2fr 1fr;
-  }
-  
-  .aboutPara h1 {
+    grid-template-columns: 4fr 1fr;
+}
+
+.aboutPara h1 {
     font-size: 96px;
     text-align: start;
     letter-spacing: 6px;
@@ -1014,10 +1033,10 @@ h1 {
     color: #000000;
     font-family: 'Koulen';
     margin: 30px 615px 0px 155px;
-  }
-  
-  .contentAB p {
-    font-size: 32px;
+}
+
+.contentAB p {
+    font-size: 30px;
     color: #000000;
     text-align: start;
     letter-spacing: -6%;
@@ -1027,33 +1046,38 @@ h1 {
     /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     font-family: 'Akatab', sans-serif;
     margin: 6px 0px 0px 155px;
-  }
-  
-  .aboutSocial {
+}
+
+.aboutSocial {
+    
     display: flex;
     flex-direction: column;
-    align-items: flex-end; /* Aligns text to the right */
-    justify-content: flex-end; /* Moves text to the bottom */
-    height: 100vh; /* Full height */
-    padding: 20px; /* Add some padding */
+    align-items: flex-end;
+    /* Aligns text to the right */
+    justify-content: flex-end;
+    /* Moves text to the bottom */
+    height: 100vh;
+    /* Full height */
+    padding: 20px;
+    /* Add some padding */
     position: absolute;
     bottom: 0;
     right: 0;
     cursor: pointer;
-  }
-  
-  
-  
-  
-  
-  @media (max-width : 600px) {
-  
+}
+
+
+
+
+
+@media (max-width : 600px) {
+
     .contentAB {
         top: -20px;
         width: 0vw;
         grid-template-columns: repeat(1, 1fr);
     }
-  
+
     .aboutPara h1 {
         width: 70vw;
         /* margin-top: 180px; */
@@ -1062,11 +1086,11 @@ h1 {
         letter-spacing: 2px;
         line-height: 38px;
         font-weight: 10px;
-        margin-left: 6px ;
+        margin-left: 6px;
         margin-right: 6px;
         padding: 0px 17px 0px 8px;
     }
-  
+
     .aboutPara p {
         width: 90vw;
         font-size: 14px;
@@ -1076,18 +1100,22 @@ h1 {
         margin: 6px 0px 0px -90px;
         padding: 6px 0px 0px 106px;
     }
+
     .aboutSocial {
-        height: auto; /* Adjust height for smaller screens */
-        position: fixed; /* Keeps it fixed at bottom */
+        height: auto;
+        /* Adjust height for smaller screens */
+        position: fixed;
+        /* Keeps it fixed at bottom */
         bottom: 80px;
         right: 10px;
         padding: 10px;
-      }
-      
-      .aboutSocial p {
+    }
+
+    .aboutSocial p {
         line-height: 6px;
-        font-size: 14px; /* Adjust font size for better readability */
-      }
-  
-  
-  }
+        font-size: 14px;
+        /* Adjust font size for better readability */
+    }
+
+
+}
