@@ -189,6 +189,7 @@ body {
     box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3);
     /* background-color: #f2f0e3; */
     transition: transform 0.1s ease-in-out;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .close-btn:active {
@@ -260,26 +261,12 @@ a {
     }
 }
 
-/* the Archieves */
-.archives-body {
-    /* background-image: linear-gradient(to bottom, rgb(231, 158, 158) 70%, #6f0a0a 100%); */
-    /* background-image: linear-gradient(to bottom, #F2F0E3 40%, #d5c980 100%); */
-    /* font-size: 2px; */
-    /* font-family: 'Times New Roman', Times, serif; */
-    font-family: 'Akshar', sans-serif;
-
-    color: #000000;
-    background-color: #F2F0E3;
-    -webkit-tap-highlight-color: transparent;
-
-
-}
 
 .archives-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     text-align: start;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .tag1,
@@ -287,7 +274,8 @@ a {
 .tag3,
 .tag4,
 .tag5 {
-    font-size: 100px;
+    width: 45vw;
+    font-size: 96px;
     margin-bottom: -50px;
     margin-left: 60px;
 }
@@ -307,6 +295,7 @@ a {
     .tag3,
     .tag4,
     .tag5 {
+        width: 98vw;
         font-size: 45px;
         margin-left: 10px;
         margin-bottom: -4px;
@@ -978,3 +967,112 @@ h1 {
     font-size: 3rem;
     color: #333;
 }
+
+
+
+/* About  */
+
+.about-body {
+    background-color: #FFFFFF;
+    overflow: scroll;
+  }
+  
+  .about-body::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari */
+  }
+  
+  .contentAB {
+    display: grid;
+    text-align: start;
+    position: relative;
+    padding: 20px 50px 0px 0px;
+    grid-template-columns: 2fr 1fr;
+  }
+  
+  .aboutPara h1 {
+    font-size: 96px;
+    text-align: start;
+    letter-spacing: 6px;
+    line-height: 88px;
+    font-weight: 10px;
+    color: #000000;
+    font-family: 'Koulen';
+    margin: 30px 615px 0px 155px;
+  }
+  
+  .contentAB p {
+    font-size: 32px;
+    color: #000000;
+    text-align: start;
+    letter-spacing: -6%;
+    word-spacing: 8px;
+    line-height: 40px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: 'Akatab', sans-serif;
+    margin: 6px 0px 0px 155px;
+  }
+  
+  .aboutSocial {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Aligns text to the right */
+    justify-content: flex-end; /* Moves text to the bottom */
+    height: 100vh; /* Full height */
+    padding: 20px; /* Add some padding */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
+  @media (max-width : 600px) {
+  
+    .contentAB {
+        top: -20px;
+        width: 0vw;
+        grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .aboutPara h1 {
+        width: 70vw;
+        /* margin-top: 180px; */
+        font-size: 34px;
+        text-align: start;
+        letter-spacing: 2px;
+        line-height: 38px;
+        font-weight: 10px;
+        margin-left: 6px ;
+        margin-right: 6px;
+        padding: 0px 17px 0px 8px;
+    }
+  
+    .aboutPara p {
+        width: 90vw;
+        font-size: 14px;
+        letter-spacing: 1%;
+        word-spacing: 1px;
+        line-height: 14px;
+        margin: 6px 0px 0px -90px;
+        padding: 6px 0px 0px 106px;
+    }
+    .aboutSocial {
+        height: auto; /* Adjust height for smaller screens */
+        position: fixed; /* Keeps it fixed at bottom */
+        bottom: 80px;
+        right: 10px;
+        padding: 10px;
+      }
+      
+      .aboutSocial p {
+        line-height: 6px;
+        font-size: 14px; /* Adjust font size for better readability */
+      }
+  
+  
+  }
