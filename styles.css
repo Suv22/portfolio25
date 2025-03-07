@@ -504,6 +504,8 @@ a {
 .social-icons {
     width: 550px;
     text-align: start;
+    -webkit-tap-highlight-color: transparent;
+
 }
 
 .link img {
@@ -548,7 +550,7 @@ a {
 
     /* FYBY socials  */
     .social-icons {
-        font-size: 14px;
+        font-size: 12px;
         letter-spacing: 1%;
         word-spacing: 1px;
         line-height: 14px;
@@ -557,6 +559,7 @@ a {
         padding: 0px 0px 0px 8px;
         justify-self: start;
         width: 85vw;
+        
     }
 
 
@@ -981,6 +984,7 @@ i {
         height: auto;
         padding: 0;
         z-index: -1;
+        margin-left: 15px;
     }
 
 }
