@@ -186,7 +186,7 @@ body {
     color: rgb(0, 0, 0);
     margin: 30px;
     padding: 2px 8px 2px 8px;
-    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3);
+    /* box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3); */
     /* background-color: #f2f0e3; */
     transition: transform 0.1s ease-in-out;
     -webkit-tap-highlight-color: transparent;
@@ -305,10 +305,10 @@ a {
     .close-btn {
         position: absolute;
         bottom: 10px;
-        right: 15px;
+        right: -20px;
         font-size: 16px;
-        margin: 30px;
-        padding: 2px 0px 2px 4px;
+        /* margin: 30px; */
+        /* padding: 2px 0px 2px 5px; */
     }
 
 }
@@ -518,7 +518,6 @@ a {
     .content1 {
         top: -20px;
         width: 80vw;
-        
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -549,7 +548,7 @@ a {
 
     /* FYBY socials  */
     .social-icons {
-        font-size: 10px;
+        font-size: 14px;
         letter-spacing: 1%;
         word-spacing: 1px;
         line-height: 14px;
@@ -557,23 +556,24 @@ a {
         margin-right: 6px;
         padding: 0px 0px 0px 8px;
         justify-self: start;
-        width: 70vw;
+        width: 85vw;
     }
 
 
     .bg21 {
-        width: 92px;
-        height: 92px;
+        width: 72px;
+        height: 72px;
     }
     .link{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         width: 70vw;
         
     }
     .link img {
         margin-top: 0px;
-        margin-left: -50px;
-        justify-self: end
+        margin-left: -70px;
+        justify-self: end;
+        position: relative;
     }
 
 }
@@ -660,12 +660,6 @@ a {
 
 @media (max-width : 600px) {
 
-    .half-background2 {
-        width: 0vw;
-        /* Half the screen width */
-        height: 0vh;
-    }
-
     .content2 {
         top: -20px;
         width: 0vw;
@@ -699,8 +693,8 @@ a {
 
     .LA1,
     .LA2,
-    .LA3 {
-        width: 90p+vw;
+    .LA3,.LA4{
+        width: 90vw;
     }
 
     .postcardLA {
@@ -708,8 +702,12 @@ a {
     }
 
     .bg22 {
-        width: 80vw;
-        margin-left: 16px;
+        width: 100vw;
+        height: auto;
+        /* Maintain aspect ratio */
+        /* display: block; */
+        margin: 8px 0px 0px 0px;
+
     }
 
     .artSocials {
@@ -1106,10 +1104,10 @@ h1 {
     .aboutSocial {
         height: auto;
         /* Adjust height for smaller screens */
-        position: fixed;
+        position: relative;
         /* Keeps it fixed at bottom */
         bottom: 80px;
-        right: 10px;
+        top: -50px;
         padding: 10px;
     }
 
