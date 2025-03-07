@@ -288,6 +288,10 @@ a {
     transform: scale(0.9);
     opacity: 0.7;
 }
+.widget1:active {
+    transform: scale(0.9);
+    opacity: 0.7;
+}
 
 
 
