@@ -640,6 +640,8 @@ a {
     font-size: 30px;
     font-family: 'Akatab', sans-serif;
     margin: 6px 0px 0px 158px;
+    -webkit-tap-highlight-color: transparent;
+
 }
 
 .artSocials i {
@@ -787,7 +789,6 @@ a {
 
 .varsitylink:active {
     color: #525252;
-    transform: scale(0.9);
 }
 
 i {
@@ -921,7 +922,6 @@ i {
 
 .businesslink:active {
     color: #525252;
-    transform: scale(0.9);
 }
 
 
