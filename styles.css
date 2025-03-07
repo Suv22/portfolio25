@@ -961,7 +961,7 @@ i {
     }
 
     .businesslink {
-        padding: 2px;
+        /* padding: 2px; */
         /* box-shadow: 1px 0px 1px 1px #333; */
         margin-left: 15px;
         -webkit-tap-highlight-color: transparent;
@@ -970,11 +970,14 @@ i {
     .vl4 a {
         font-size: 14px;
     }
-
-    .bs25 img {
-        position: absolute;
-        padding-top: 0vw;
+    .bs25{
+        padding: 0;
         width: 100vw;
+        height: 0vh;
+    }
+    .bs25 img {
+        position: relative;
+        width: 90vw;
         height: auto;
         padding: 0;
         z-index: -1;
