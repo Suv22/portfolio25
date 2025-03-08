@@ -922,7 +922,6 @@ i {
 .businesslink {
     font-family: 'Akatab', sans-serif;
     font-size: 30px;
-    padding: 2px;
     /* box-shadow: 1px 0px 1px 1px #333; */
     /* margin-left: 158px; */
     -webkit-tap-highlight-color: transparent;
@@ -975,6 +974,7 @@ i {
         /* padding: 2px; */
         /* box-shadow: 1px 0px 1px 1px #333; */
         /* margin-left: 15px; */
+        
         -webkit-tap-highlight-color: transparent;
     }
 
